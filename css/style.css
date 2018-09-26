@@ -1,0 +1,123 @@
+body {
+  background-image: url("../images/background.jpg");
+}
+
+h3 {
+  color: SEAGREEN;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+header nav .list-container {
+  padding: 0;
+  display: flex;
+  width: 100%;
+}
+header nav .list-container .list-items {
+  background-color: SEAGREEN;
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+}
+header nav .list-container .list-items .links {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+}
+header nav .list-container .list-items .links:hover {
+  background-color: grey;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .left {
+  width: 70%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-right: 10px;
+}
+.container .left h3 {
+  display: inline-block;
+}
+.container .left .lastest-blog {
+  margin-bottom: 10px;
+  padding-left: 5px;
+  background-color: white;
+  padding: 10px;
+}
+.container .left .lastest-blog article {
+  border-bottom-style: dotted;
+}
+.container .left .testimonials {
+  padding-left: 5px;
+  padding: 10px;
+  background-color: white;
+}
+.container .left .testimonials .testigo {
+  color: SEAGREEN;
+}
+.container .left .testimonials article {
+  border-bottom-style: dotted;
+}
+.container .right {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.container .right .aside {
+  padding: 5px;
+  width: 100%;
+}
+.container .right .aside:first-of-type {
+  padding-top: 0px;
+}
+.container .right .aside img {
+  width: 100%;
+}
+
+footer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: grey;
+}
+footer .list-container {
+  padding: 0;
+  display: flex;
+  width: 70%;
+}
+footer .list-container .list-items {
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+}
+footer .list-container .list-items .links {
+  text-decoration: none;
+  color: #3B240B;
+  display: block;
+  padding: 10px;
+}
+footer .list-container .list-items .links:hover {
+  color: white;
+}
+footer .social-media {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30%;
+}
+footer .social-media i.fab {
+  padding: 10px;
+  font-size: 35px;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

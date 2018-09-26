@@ -1,0 +1,46 @@
+body {
+  background-image: url("../images/background.jpg");
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+header .list-container {
+  padding: 0;
+  display: flex;
+  width: 100%;
+}
+header .list-container .list-items {
+  background-color: SEAGREEN;
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+}
+header .list-container .list-items .links {
+  display: block;
+  padding: 10px;
+}
+header .list-container .list-items .links:hover {
+  background-color: grey;
+}
+
+a {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .left {
+  background-color: white;
+  width: 70%;
+}
+.container .right {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=style.css.map */

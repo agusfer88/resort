@@ -1,0 +1,129 @@
+body {
+  background-image: url("../images/background.jpg");
+}
+h3{
+  color: SEAGREEN;
+}
+
+header{
+    nav{
+      display: flex;
+      justify-content: center;
+
+    .list-container{
+      padding: 0;
+      display: flex;
+      width: 100%;
+
+      .list-items{
+        background-color: SEAGREEN;
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        .links{
+          text-decoration: none;
+          color: white;
+          display: block;
+          padding: 10px;
+          &:hover{
+            background-color: grey;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.container{
+  display: flex;
+  justify-content: space-between;
+
+
+  .left{
+    h3{
+      display: inline-block;
+    }
+    width: 70%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    .lastest-blog{
+      margin-bottom: 10px;
+      padding-left: 5px;
+      background-color: white;
+      padding: 10px;
+        article{
+          border-bottom-style: dotted;
+        }
+      }
+    .testimonials{
+      padding-left: 5px;
+      padding: 10px;
+      background-color: white;
+      .testigo{
+        color: SEAGREEN;
+      }
+      article{
+        border-bottom-style: dotted;
+      }
+    }
+  }
+  .right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .aside{
+      padding: 5px;
+      &:first-of-type{
+        padding-top: 0px;
+      }
+
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+footer{
+
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: grey;
+    .list-container{
+      padding: 0;
+      display: flex;
+      width: 70%;
+      .list-items{
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        .links{
+          text-decoration: none;
+          color: #3B240B;
+          display: block;
+          padding: 10px;
+          &:hover{
+            color: white;
+          }
+        }
+      }
+    }
+    .social-media{
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 30%;
+      i.fab {
+        padding: 10px;
+        font-size: 35px;
+        color: white;
+      }
+    }
+  }
